@@ -1,0 +1,233 @@
+@charset "ISO-8859-1";
+
+
+body {
+	background-color: #fff1a1;
+	}
+	
+h1 {
+	color: #3f9976;
+}
+	
+.main-content {
+	padding: 35px 35px 25px;
+	background-color: white;
+    max-width: 100%;
+    }
+
+/******* Form *******/	
+input {
+	margin: 10px;
+	margin-top: 0;
+}
+
+button {
+	margin: 10px;
+}
+
+.form-control {
+    display: inline;
+}
+
+hr {
+	width: 30%;
+}
+
+#GoWonder {
+	font-style: italic;
+	font-size: 0.8em;	
+}
+
+.error {
+	font-size: 0.8em;
+	color: red;
+	margin: -10px 0 10px;
+}
+
+.formSubmitButton {
+	margin-top: 10px;
+}
+
+/******* End of Form *******/	
+
+
+/******* About page *******/	
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li span {
+  position: relative;
+  left: -10px;
+}
+
+#about .cnss {
+	font-weight: bold;
+	color:  #3f9976;
+}
+
+/******* End of About page *******/	
+
+
+/******* Thank You Page *******/
+#thank-you {
+	text-align: center;
+}
+
+#joke {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	color:  #3f9976;
+	padding-top: 10px;
+}
+/******* End of Thank You Page *******/
+
+
+/******* Header *******/
+.navbar-header > a:hover {
+	text-decoration: none;
+}	
+
+header {
+	background-image: linear-gradient(#fff1a1, white);
+}
+
+#phone-cowboy {
+	padding-top: 10px;
+}
+
+#logo-lg  {
+	padding-top: 10px;
+}
+
+/******* End of Header *******/
+
+
+/******* Footer *******/
+#copyright {
+	font-size: 0.8em;	
+	text-align: center;
+	margin-top: auto;
+	padding-bottom: 10px;
+	}
+
+footer {
+	background-image: linear-gradient(white, #fff1a1);		
+}
+
+footer a:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+footer a {
+	line-height: 0;
+}
+
+footer img {
+ 	width: 100%;
+}
+
+#image-about{
+	margin-top: 6px;
+}
+
+/******* End of Footer *******/
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+.error {
+	margin-left: 33.333333%;
+}
+	
+}
+
+/********** Medium and Large devices only **********/
+@media (min-width: 768px) {
+	.navbar-header {
+	position: relative;
+	padding-right: 0px;
+    padding-left: 0px;	
+	}
+
+	.navbar-header > img{
+	position: float;
+	}
+}
+
+
+/********** Medium and Large devices only **********/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	h1{
+		font-size: 2em;
+	}
+	
+	.navbar-header {
+	position: relative;
+	    padding-right: 0px;
+    padding-left: 0px;
+	}
+	
+	#copyright {
+	font-size: 0.5em;
+	padding: 0;	
+	}
+	
+	#image-about{
+	margin-top: 0px;
+	}
+	
+	#image-send-more-jokes{
+		margin-top: 2px;
+	}
+	
+	.btn-info {
+    margin-right: 10px;
+    margin-left: 10px;
+	}
+	
+}
+/********** End Extra small devices only **********/
+
+
+/********** Counter **********/
+.counter { 
+	background-color: white;
+    text-align: center;
+	}
+	
+.number-of-jokes {
+    margin-top: 10px;
+    margin-bottom: 0px;
+	}
+
+.counter-count {
+    font-size: 2em;
+    background-color: #3f9976;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+	}
+
+.counter-unit {
+    font-size: 1em;
+    color: #000000;
+    line-height: 0px;
+    font-weight: bold;
+	}
+	
+/********** End Counter **********/
